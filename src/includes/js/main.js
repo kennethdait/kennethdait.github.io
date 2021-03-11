@@ -7,7 +7,7 @@
 
 	use strict;
 
-	console.log('Hello world!');
+	window.ready(()=>{ console.log('hello from extenal JS code');});
 
-});
+}());
 
